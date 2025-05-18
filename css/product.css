@@ -1,0 +1,110 @@
+@font-face {
+  font-family: SFBold;
+  src: url(../fonts/SFPRODISPLAYBOLD.OTF);
+}
+#product-info {
+  margin-top: 70px;
+  line-height: 30px;
+}
+
+#product-info h2 {
+  font-family: SFBold;
+}
+
+#product-info p {
+  text-align: justify;
+}
+
+.addtocart-btn {
+  padding-bottom: 30px;
+}
+
+.btn-primary {
+  background-color: black;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.164);
+  border: none;
+  font-size: 14px;
+  color: white;
+  width: 430px;
+  height: 45px;
+}
+
+.btn-primary:hover {
+  background-color: rgb(57, 57, 57);
+  color: white;
+  transform: scale(1.02);
+  transition: 0.3s ease-in-out;
+}
+
+.btn-group {
+  padding-bottom: 20px;
+}
+
+/* Default state with a white background and black text */
+.btn-outline-primary {
+  color: black;
+  background-color: white;
+  border-color: black;
+  width: 60px;
+}
+
+/* Hover state with a black border */
+.btn-outline-primary:hover {
+  border-color: black;
+  background-color: rgba(0, 0, 0, 0.321);
+}
+
+/* Active state (when clicked) with a black background and white text */
+.btn-outline-primary:active,
+.btn-outline-primary.active {
+  color: white;
+  background-color: black;
+  border-color: black;
+}
+
+/* Focus state (when clicked and focused) to maintain the black background and white text */
+.btn-outline-primary:focus,
+.btn-check:checked + .btn-outline-primary {
+  color: white;
+  background-color: black;
+  border-color: black;
+}
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.cart-item img {
+  width: 50px;
+  height: auto;
+}
+
+#chevron{
+  font-size: 13px;
+  color: black;
+}
+
+.remove-from-cart {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.remove-from-cart:hover {
+  opacity: 0.8;
+}
+
+.out-of-stock{
+  padding-top: 6px;
+  padding-bottom: 30px;
+}
+
+.out-of-stock button{
+  width: 430px;
+  height: 45px;
+}
+

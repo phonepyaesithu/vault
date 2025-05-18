@@ -1,0 +1,35 @@
+.policy {
+  align-content: center;
+  text-align: center;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.policy h1 {
+  font-family: SFBold;
+}
+
+.policy a {
+  text-decoration: underline;
+  color: black;
+}
+
+.policy-body {
+  align-content: center;
+  text-align: justify;
+  justify-content: center;
+  padding: 20px 480px 70px 480px;
+}
+
+@media (max-width: 992px) {
+  .policy-body {
+    align-content: center;
+    text-align: justify;
+    justify-content: center;
+    padding: 15px 60px 45px 60px;
+  }
+
+  footer form {
+    padding: 0px 60px 0px 60px;
+  }
+}

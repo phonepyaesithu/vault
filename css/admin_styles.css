@@ -1,0 +1,63 @@
+body {
+  background-color: whitesmoke;
+  /* Page background */
+}
+
+.sidebar {
+  position: static;
+  background-color: white;
+  /* Sidebar background */
+  height: auto;
+  padding-top: 1rem;
+  padding: 5px;
+  width: 180px;
+  /* Sidebar width */
+  margin-left: 20px;
+  /* Space between sidebar and left edge */
+  border-radius: 15px;
+  /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Subtle shadow */
+  position: relative;
+  /* Ensure it does not overlap */
+  z-index: 1;
+  /* Higher than main content */
+}
+
+.navbar {
+  background-color: transparent !important;
+  /* Transparent navbar */
+}
+
+main {
+  /* Main content style */
+  width: max-content;
+  margin: 0;
+  position: relative;
+  /* Ensure it is above sidebar */
+  z-index: 2;
+  /* Higher than sidebar */
+}
+
+form {
+  margin-top: 20px;
+  /* Space above the form */
+  padding: 10px;
+  /* Padding for the form */
+  background-color: white;
+  /* Background for visibility */
+  border-radius: 5px;
+  /* Rounded corners for the form */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  /* Subtle shadow */
+}
+
+/* Media Query for smaller devices */
+@media (max-width: 768px) {
+  #sidebar {
+    position: fixed;
+    width: 100%;
+    height: auto;
+    z-index: 1000;
+  }
+}
