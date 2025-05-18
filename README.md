@@ -1,1 +1,1 @@
-Just a simple php e-commerce website project I did during my time studying computing. 
+Sample e-com page created using PHP with server side from phpmyadmin. 
